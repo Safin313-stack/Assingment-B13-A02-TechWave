@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechWave - Your Tech Podcast</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="styles/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="py-4 px-6 lg:px-20">
+        <div class="flex items-center justify-between">
+            <div class="text-2xl font-bold">Tech<span class="text-pink-500">Wave</span></div>
+            
+            <div class="hidden lg:flex items-center space-x-8">
+                <a href="#about" class="nav-link text-gray-300">About</a>
+                <a href="#episodes" class="nav-link text-gray-300">Episodes</a>
+                <a href="#host" class="nav-link text-gray-300">Host</a>
+            </div>
+            
+            <button class="hidden lg:block gradient-btn text-white px-6 py-2 rounded-full font-semibold">Subscribe</button>
+            
+            <button id="hamburger" class="lg:hidden text-white">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </div>
+        
+        <div id="mobile-menu" class="lg:hidden overflow-hidden max-h-0">
+            <div class="pt-4 pb-2 space-y-3">
+                <a href="#about" class="block nav-link text-gray-300">About</a>
+                <a href="#episodes" class="block nav-link text-gray-300">Episodes</a>
+                <a href="#host" class="block nav-link text-gray-300">Host</a>
+                <button class="gradient-btn text-white px-6 py-2 rounded-full font-semibold w-full mt-3">Subscribe</button>
+            </div>
+    </nav>
+
+    <!-- Banner -->
+    <section class="hero-banner relative py-20 px-6">
+        <div class="max-w-4xl mx-auto text-center">
+            <div class="relative inline-block mb-8">
+                <div class="new-badge">NEW</div>
+                <div class="podcast-circle w-48 h-48 rounded-full flex items-center justify-center mx-auto relative">
+                    <div class="absolute inset-0 rounded-full opacity-20 animate-ping"></div>
+                    <img src="styles/microphone.png" width="80" height="80" alt="Podcast Logo" class="hero_picture">
+                    </img>
+                </div>
+            
+            <h1 class="text-4xl lg:text-5xl font-bold mb-4">TechWave</h1>
+            <p class="text-gray-400 mb-8 max-w-2xl mx-auto">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <button class="gradient-btn text-white px-8 py-3 rounded-full font-semibold">Listen On Spotify</button>
+                <button class="border-2 border-cyan-400 text-cyan-400 px-8 py-3 rounded-full font-semibold hover:bg-cyan-400 hover:text-black transition-all">Subscribe</button>
+            </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="py-20 px-6">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl lg:text-4xl font-bold text-center mb-4">About The Podcast</h2>
+            <p class="text-gray-400 text-center max-w-3xl mx-auto mb-12">TechWave is your go-to podcast for staying ahead in the fast-paced world of technology. We break down complex topics into digestible insights, explore productivity strategies that actually work, and share stories of personal growth from industry leaders.</p>
+            <p class="text-gray-400 text-center max-w-3xl mx-auto mb-16">Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
+            
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
+                <div class="stat-card text-center">
+                    <h3 class="text-4xl lg:text-5xl font-bold text-green-400 mb-2">150K+</h3>
+                    <p class="text-gray-400">Monthly Listeners</p>
+                </div>
+                <div class="stat-card text-center">
+                    <h3 class="text-4xl lg:text-5xl font-bold text-green-400 mb-2">200+</h3>
+                    <p class="text-gray-400">Episodes Published</p>
+                </div>
+                <div class="stat-card text-center">
+                    <h3 class="text-4xl lg:text-5xl font-bold text-green-400 mb-2">4.9★</h3>
+                    <p class="text-gray-400">Average Rating</p>
+                </div>
+                <div class="stat-card text-center">
+                    <h3 class="text-4xl lg:text-5xl font-bold text-green-400 mb-2">50+</h3>
+                    <p class="text-gray-400">Industry Experts</p>
+                </div>
+        </div>
+    </section>
+
+    <!-- Why Choose -->
+    <section class="why-choose-section py-24 px-6">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl lg:text-4xl font-bold text-center mb-4 text-white">Why Choose TechWave</h2>
+            <p class="text-gray-400 text-center max-w-2xl mx-auto mb-16">Experience the difference with our premium features designed for tech enthusiasts</p>
+            
+            <!-- 2 Column x 3 Row Grid -->
+            <div class="features-grid">
+                <!-- Card 1: Premium Audio Quality - Row 1-2, Column 1 -->
+                <div class="glass-card card-premium-audio">
+                    <div class="icon-wrapper">
+                        <img src="styles/headphone.png" alt="Headphone">
+                    </div>
+                    <h3>Premium Audio Quality</h3>
+                    <p>Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered to deliver the best listening experience on any device and platform.</p>
+                </div>
+                
+                <!-- Card 2: Mobile Friendly - Row 1, Column 2 -->
+                <div class="glass-card card-mobile-friendly">
+                    <div class="icon-wrapper">
+                        <img src="styles/device.png" alt="Device">
+                    </div>
+                    <h3>Mobile Friendly</h3>
+                    <p>Listen on the go with seamless mobile experience and offline downloads. Our optimized platform works flawlessly across all devices.</p>
+                </div>
+                
+                <!-- Card 3: Global Community - Row 2, Column 2 -->
+                <div class="glass-card card-global-community">
+                    <div class="icon-wrapper">
+                        <img src="styles/location.png" alt="Location">
+                    </div>
+                    <h3>Global Community</h3>
+                    <p>Connect with tech enthusiasts from over 120 countries worldwide. Join our vibrant community of learners and innovators.</p>
+                </div>
+                
+                <!-- Card 4: Exclusive Interviews - Row 3, Column 1 -->
+                <div class="glass-card card-exclusive-interviews">
+                    <div class="icon-wrapper">
+                        <img src="styles/microphone.png" alt="Microphone">
+                    </div>
+                    <h3>Exclusive Interviews</h3>
+                    <p>Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host secures exclusive conversations you won't find anywhere else, diving deep into both successes and failures.</p>
+                </div>
+                
+                <!-- Card 5: Rich Resources - Row 3, Column 2 -->
+                <div class="glass-card card-rich-resources">
+                    <div class="icon-wrapper">
+                        <img src="styles/resource.png" alt="Resources">
+                    </div>
+                    <h3>Rich Resources</h3>
+                    <p>Access show notes, transcripts, and additional learning materials for every episode. Deepen your knowledge with curated resources.</p>
+                </div>
+            </div>
+    </section>
+
+    <!-- Episodes -->
+    <section id="episodes" class="py-20 px-6 episodes-section">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl lg:text-4xl font-bold text-center mb-16">Featured Episodes</h2>
+            
+            <div class="episodes-grid">
+                <div class="episode-card">
+                    <div class="episode-image">
+                        <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=600&h=400&fit=crop" alt="AI Episode">
+                        <div class="episode-overlay"></div>
+                        <button class="episode-play">
+                            <svg class="w-8 h-8 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="episode-content">
+                        <h3>The Future of AI in Everyday Life</h3>
+                        <p>Exploring how artificial intelligence is reshaping our daily routines and what to expect in the coming years.</p>
+                        <div class="episode-duration">
+                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/>
+                            </svg>
+                            <span>42 min</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="episode-card">
+                    <div class="episode-image">
+                        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&h=400&fit=crop" alt="Remote Work Episode">
+                        <div class="episode-overlay"></div>
+                        <button class="episode-play">
+                            <svg class="w-8 h-8 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="episode-content">
+                        <h3>Building Better Habits for Remote Work</h3>
+                        <p>Practical strategies for staying productive and maintaining work-life balance in a remote work environment.</p>
+                        <div class="episode-duration">
+                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/>
+                            </svg>
+                            <span>35 min</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="episode-card">
+                    <div class="episode-image">
+                        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600&h=400&fit=crop" alt="Career Growth Episode">
+                        <div class="episode-overlay"></div>
+                        <button class="episode-play">
+                            <svg class="w-8 h-8 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="episode-content">
+                        <h3>Career Growth in Tech: A Roadmap</h3>
+                        <p>Expert advice on navigating your tech career journey and fast-tracking your professional development.</p>
+                        <div class="episode-duration">
+                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/>
+                            </svg>
+                            <span>51 min</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Host -->
+    <section id="host" class="py-20 px-6 bg-gradient-to-b from-purple-900/20 to-transparent">
+        <div class="max-w-6xl mx-auto">
+            <div class="flex flex-col lg:flex-row items-center gap-12">
+                <div class="flex-shrink-0">
+                    <img src="styles/host.png" alt="Alex Kumar" class="w-64 h-64 rounded-3xl object-cover">
+                </div>
+                
+                <div class="flex-1 text-center lg:text-left">
+                    <h3 class="text-3xl font-bold mb-4">Alex Kumar</h3>
+                    <p class="text-gray-400 mb-6">Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders and practical advice for anyone looking to grow in tech.</p>
+                    
+                    <div class="flex gap-4 justify-center lg:justify-start">
+                        <a href="#" class="social-icon">
+                            <img src="styles/linkedin.png" alt="LinkedIn" class="social-img">
+                        </a>
+                        <a href="#" class="social-icon">
+                            <img src="styles/x.png" alt="X (Twitter)" class="social-img">
+                        </a>
+                        <a href="#" class="social-icon">
+                            <img src="styles/instagram.png" alt="Instagram" class="social-img">
+                        </a>
+                        <a href="#" class="social-icon">
+                            <img src="styles/youtube.png" alt="YouTube" class="social-img">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 px-6 border-t border-gray-800 footer-bg">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-6">
+                <h2 class="text-3xl font-bold mb-6">Tech<span class="text-pink-500">Wave</span></h2>
+                
+                <div class="flex flex-wrap justify-center gap-6 mb-6">
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors flex items-center gap-2 podcast-link">
+                        <img src="styles/spotify.png" alt="Spotify" class="podcast-icon">
+                        <span>Spotify</span>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors flex items-center gap-2 podcast-link">
+                        <img src="styles/apple-podcast.png" alt="Apple Podcasts" class="podcast-icon">
+                        <span>Apple Podcasts</span>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors flex items-center gap-2 podcast-link">
+                        <img src="styles/youtube-podcast.png" alt="YouTube Podcasts" class="podcast-icon">
+                        <span>YouTube Podcasts</span>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors flex items-center gap-2 podcast-link">
+                        <img src="styles/twitter.png" alt="Twitter" class="podcast-icon">
+                        <span>Twitter</span>
+                    </a>
+                </div>
+            
+            <div class="border-t border-gray-800 pt-6">
+                <p class="text-center text-gray-500 text-sm">© 2025 TechWave Podcast. All rights reserved.</p>
+            </div>
+    </footer>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        hamburger.addEventListener('click', () => {
+            if (mobileMenu.style.maxHeight === '0px' || mobileMenu.style.maxHeight === '') {
+                mobileMenu.style.maxHeight = '300px';
+            } else {
+                mobileMenu.style.maxHeight = '0px';
+            }
+        });
+    </script>
+</body>
+</html>
