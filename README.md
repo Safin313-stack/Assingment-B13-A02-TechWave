@@ -2,76 +2,73 @@
 
 <br/>
 
-# 🎙️ TechWave — Podcast Landing Page
-
-**A sleek, dark-themed podcast website built with HTML, Tailwind CSS & custom CSS**
-
-[![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Complete-brightgreen)]()
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0f,50:1a1a3e,100:2d1b69&height=200&section=header&text=TechWave&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Your+daily+dose+of+tech+insights+and+growth&descAlignY=60&descSize=15&descColor=94a3b8" width="100%"/>
 
 <br/>
 
-> *A production-quality podcast landing page — dark aesthetic, glassmorphism cards, responsive navbar, featured episodes, host profile, and multi-platform footer links.*
+[![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![MIT License](https://img.shields.io/badge/License-MIT-22c55e?style=flat-square)](LICENSE)
+[![Deployed](https://img.shields.io/badge/Deployed-GitHub%20Pages-0ea5e9?style=flat-square&logo=github)](https://safin313-stack.github.io/Assingment-B13-A02-TechWave/)
+[![PH Batch](https://img.shields.io/badge/Programming%20Hero-Batch%2013-f97316?style=flat-square)](https://web.programming-hero.com)
 
 <br/>
+
+<a href="https://safin313-stack.github.io/Assingment-B13-A02-TechWave/">
+  <img src="https://img.shields.io/badge/-%F0%9F%8E%99%EF%B8%8F%20%20LIVE%20DEMO%20%20%E2%86%92-2d1b69?style=for-the-badge&logoColor=white" alt="Live Demo" height="42"/>
+</a>
+
+<br/>
+<sub>✦ No login &nbsp;·&nbsp; No install &nbsp;·&nbsp; Opens instantly in your browser ✦</sub>
+
+<br/><br/>
 
 </div>
 
 ---
 
-## 🌟 What is This?
+<div align="center">
 
-**TechWave** is a fully responsive podcast website landing page for a fictional tech podcast. Built for **Programming Hero (Batch-13, Assignment 02)**, it demonstrates real-world front-end layout skills — multi-section page structure, custom CSS with Tailwind utility classes, glassmorphism UI, responsive mobile navigation, and a carefully crafted dark visual identity.
+### 🎙️ What You Get
 
----
+| 🌑 Dark Theme | 🪟 Glass Cards | 📐 Bento Grid | 📱 Responsive Nav | 🎧 Episodes | 📊 Stats |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| Deep space aesthetic with purple and cyan accents | Frosted-glass feature cards via custom CSS | Asymmetric CSS Grid layout for feature section | Hamburger menu with smooth expand on mobile | Hoverable cards with play button overlays | 150K+ listeners · 200+ episodes · 4.9★ |
 
-## ✨ Features at a Glance
-
-| Feature | Description |
-|---|---|
-| 🌑 **Dark Theme** | Deep space aesthetic with purple/cyan/pink accents |
-| 🪟 **Glassmorphism Cards** | Frosted-glass feature cards with custom CSS |
-| 📐 **Bento Grid Layout** | Asymmetric CSS Grid for the "Why Choose" section |
-| 📱 **Responsive Navbar** | Hamburger menu with smooth expand/collapse on mobile |
-| 🎧 **Episodes Section** | Hoverable episode cards with play button overlays |
-| 📊 **Stats Dashboard** | Animated stat counters — 150K+ listeners, 200+ episodes |
-| 🎤 **Host Profile** | Bio section with social media icon links |
-| 🔗 **Platform Footer** | Spotify, Apple Podcasts, YouTube, Twitter links |
+</div>
 
 ---
 
 ## 🖥️ Page Structure
 
 ```
-┌──────────────────────────────────────────────────────────┐
-│  🎙️  TechWave         About  Episodes  Host  [Subscribe] │  ← Navbar
-├──────────────────────────────────────────────────────────┤
-│                                                          │
-│              🎙  [ pulsing mic icon ]                    │  ← Hero Banner
-│                     TechWave                             │
-│       "Your daily dose of tech insights..."              │
-│    [Listen on Spotify]   [Subscribe]                     │
-├──────────────────────────────────────────────────────────┤
-│  About    150K+ Listeners  200+ Episodes  4.9★  50+ Experts │ ← Stats
-├──────────────────────────────────────────────────────────┤
-│  Why Choose TechWave                                     │
-│  ┌──────────────────────┬──────────────┐                 │
-│  │ 🎧 Premium Audio     │ 📱 Mobile    │  ← Bento Grid  │
-│  │    (tall card)       ├──────────────┤                 │
-│  │                      │ 🌍 Community │                 │
-│  ├──────────────────────┼──────────────┤                 │
-│  │ 🎤 Exclusive         │ 📚 Resources │                 │
-│  └──────────────────────┴──────────────┘                 │
-├──────────────────────────────────────────────────────────┤
-│  Featured Episodes  [ 3 hoverable cards with overlays ]  │
-├──────────────────────────────────────────────────────────┤
-│  Host: Alex Kumar  [ bio + social icons ]                │
-├──────────────────────────────────────────────────────────┤
-│  © TechWave  Spotify · Apple · YouTube · Twitter         │  ← Footer
-└──────────────────────────────────────────────────────────┘
+╔══════════════════════════════════════════════════════════════╗
+║  🎙️  TechWave       About · Episodes · Host   [Subscribe]   ║  ← Navbar
+╠══════════════════════════════════════════════════════════════╣
+║              [ pulsing mic icon — animated ring ]            ║
+║                        TechWave                              ║  ← Hero
+║          "Your daily dose of tech insights..."               ║
+║         [ Listen on Spotify ]   [ Subscribe ]                ║
+╠══════════════════════════════════════════════════════════════╣
+║   150K+ Listeners · 200+ Episodes · 4.9★ · 50+ Experts      ║  ← Stats
+╠══════════════════════════════════════════════════════════════╣
+║  Why Choose TechWave                                         ║
+║  ╔═══════════════════════╦═══════════════╗                   ║
+║  ║  🎧 Premium Audio     ║  📱 Mobile    ║  ← Bento Grid    ║
+║  ║     (spans 2 rows)    ╠═══════════════╣                   ║
+║  ║                       ║  🌍 Community ║                   ║
+║  ╠═══════════════════════╬═══════════════╣                   ║
+║  ║  🎤 Exclusive         ║  📚 Resources ║                   ║
+║  ╚═══════════════════════╩═══════════════╝                   ║
+╠══════════════════════════════════════════════════════════════╣
+║  Featured Episodes  [ 3 hoverable cards with overlays ]      ║  ← Episodes
+╠══════════════════════════════════════════════════════════════╣
+║  🎤 Alex Kumar  ·  Bio  ·  LinkedIn · X · Instagram · YT    ║  ← Host
+╠══════════════════════════════════════════════════════════════╣
+║  © TechWave  ·  Spotify · Apple · YouTube · Twitter          ║  ← Footer
+╚══════════════════════════════════════════════════════════════╝
 ```
 
 ---
@@ -79,6 +76,7 @@
 ## 🎨 Design Highlights
 
 ### Glassmorphism Feature Cards
+
 ```css
 .glass-card {
   background: rgba(255, 255, 255, 0.05);
@@ -89,20 +87,20 @@
 ```
 
 ### Asymmetric Bento Grid
+
 ```css
-/* 5 cards in a 2-column grid with varying row spans */
 .features-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(3, auto);
   gap: 1.5rem;
 }
-
-.card-premium-audio        { grid-row: 1 / 3; }   /* spans 2 rows */
-.card-exclusive-interviews { grid-row: 3; }
+.card-premium-audio        { grid-row: 1 / 3; }
+.card-exclusive-interviews { grid-row: 3;     }
 ```
 
 ### Gradient CTA Button
+
 ```css
 .gradient-btn {
   background: linear-gradient(135deg, #ec4899, #8b5cf6, #06b6d4);
@@ -111,13 +109,13 @@
 .gradient-btn:hover { opacity: 0.88; }
 ```
 
-### Mobile Hamburger Menu
+### Mobile Hamburger Toggle
+
 ```js
 hamburger.addEventListener('click', () => {
   mobileMenu.style.maxHeight =
     mobileMenu.style.maxHeight === '0px' || !mobileMenu.style.maxHeight
-      ? '300px'
-      : '0px';
+      ? '300px' : '0px';
 });
 ```
 
@@ -126,104 +124,107 @@ hamburger.addEventListener('click', () => {
 ## 📁 Project Structure
 
 ```
-TechWave/
+Assingment-B13-A02-TechWave/
 │
-├── index.html          ← Full page: navbar, hero, about, episodes, host, footer
+├── 📄 index.html          ← Full page · navbar · hero · sections · footer
 │
-└── styles/
-    ├── style.css       ← Custom styles: glass cards, grid, animations, dark theme
-    ├── microphone.png  ← Hero & features icon
-    ├── headphone.png   ← Premium audio feature icon
-    ├── device.png      ← Mobile friendly feature icon
-    ├── location.png    ← Global community feature icon
-    ├── resource.png    ← Rich resources feature icon
-    ├── host.png        ← Alex Kumar host photo
-    ├── group.png       ← Remote work episode thumbnail
-    ├── linkedin.png    ← Social icon
-    ├── x.png           ← Social icon
-    ├── instagram.png   ← Social icon
-    ├── youtube.png     ← Social icon
-    ├── spotify.png     ← Footer platform icon
-    ├── apple-podcast.png
-    ├── youtube-podcast.png
-    └── twitter.png
+└── 📂 styles/
+    ├── 🎨 style.css       ← Glass cards · bento grid · dark theme · animations
+    ├── 🎙️  microphone.png  ← Hero and features icon
+    ├── 🎧 headphone.png   ← Premium audio icon
+    ├── 📱 device.png      ← Mobile friendly icon
+    ├── 📍 location.png    ← Global community icon
+    ├── 📚 resource.png    ← Rich resources icon
+    ├── 🧑 host.png        ← Alex Kumar host photo
+    ├── 👥 group.png       ← Episode thumbnail
+    └── 🔗 social icons    ← linkedin · x · instagram · youtube · spotify · apple
 ```
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Run It Yourself
 
-No build step. No install. Just open.
+**Option 1 — Live (instant, no setup)**
 
-**Option 1 — Direct open:**
+> 🔗 **[https://safin313-stack.github.io/Assingment-B13-A02-TechWave/](https://safin313-stack.github.io/Assingment-B13-A02-TechWave/)**
+
+**Option 2 — Clone and open locally**
+
 ```bash
 git clone https://github.com/Safin313-stack/Assingment-B13-A02-TechWave.git
+cd Assingment-B13-A02-TechWave
 open index.html
 ```
 
-**Option 2 — Live Server (VS Code):**
-1. Install [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
-2. Right-click `index.html` → **Open with Live Server** ✅
+**Option 3 — VS Code Live Server**
+
+```
+1. Install Live Server extension
+2. Right-click index.html → Open with Live Server
+3. Site opens at localhost:5500 ✅
+```
 
 ---
 
-## 🎨 Tech Stack
+## 🛠️ Tech Stack
 
 ```
-Frontend Only — No Build Tools Required
-────────────────────────────────────────
-  HTML5        →  Full page semantic structure
-  Tailwind CSS →  Utility-first layout & spacing (CDN)
-  CSS3         →  Custom glassmorphism, grid, animations
-  JavaScript   →  Hamburger menu toggle only
-  Unsplash     →  Episode thumbnail images
+┌──────────────────────────────────────────────────┐
+│           Frontend · No Build Tools Required     │
+├─────────────────┬────────────────────────────────┤
+│  HTML5          │  Full semantic page structure  │
+│  Tailwind CSS   │  Utility-first layout (CDN)    │
+│  CSS3           │  Glassmorphism · grid · anims  │
+│  JavaScript     │  Hamburger toggle only         │
+│  Unsplash       │  Episode thumbnail images      │
+└─────────────────┴────────────────────────────────┘
 ```
 
 ---
 
 ## 🎙️ Sections Overview
 
-**Navbar** — Fixed top bar with logo, nav links, subscribe CTA, and a mobile-responsive hamburger toggle.
-
-**Hero Banner** — Centred layout with animated pulsing mic icon, tagline, and dual CTA buttons (Spotify + Subscribe).
-
-**About** — Podcast description with a 4-column stat grid: 150K+ listeners, 200+ episodes, 4.9★ rating, 50+ experts.
-
-**Why Choose TechWave** — Asymmetric 2×3 bento grid of 5 glassmorphism cards covering audio quality, mobile experience, global community, exclusive interviews, and resources.
-
-**Featured Episodes** — 3-column card grid with hover overlay effects and a play button on each episode thumbnail.
-
-**Host** — Side-by-side bio section for Alex Kumar with social media links.
-
-**Footer** — Podcast platform links (Spotify, Apple, YouTube, Twitter) and copyright.
+```
+Navbar     → Logo · nav links · subscribe CTA · mobile hamburger toggle
+Hero       → Animated pulsing mic · tagline · dual CTA buttons
+About      → Podcast description + 4-column stat grid
+Why Choose → 5-card asymmetric bento grid with glassmorphism
+Episodes   → 3-column cards with hover overlay + play button
+Host       → Alex Kumar bio + social media icon links
+Footer     → Spotify · Apple Podcasts · YouTube · Twitter + copyright
+```
 
 ---
 
-## 👤 Developer
-
 <div align="center">
 
+## 👤 Developer
+
+<br/>
+
 **Saharia Hassan Safin**
+Front-end Developer · Programming Hero Batch 13
 
-[![GitHub](https://img.shields.io/badge/GitHub-Safin313--stack-181717?style=flat&logo=github)](https://github.com/Safin313-stack)
+<br/>
 
-*Designing dark-mode interfaces one glass card at a time 🎙️*
+[![GitHub](https://img.shields.io/badge/GitHub-Safin313--stack-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Safin313-stack)
+&nbsp;
+[![Live Project](https://img.shields.io/badge/Live%20Project-Visit%20Now-2d1b69?style=for-the-badge&logo=vercel&logoColor=white)](https://safin313-stack.github.io/Assingment-B13-A02-TechWave/)
+
+<br/>
+
+*"Designing dark-mode interfaces one glass card at a time"* 🎙️
+
+<br/>
 
 </div>
 
 ---
 
-## 📜 License
-
-```
-MIT License — Free to use, modify, and distribute.
-© 2025 Saharia Hassan Safin
-```
-
----
-
 <div align="center">
 
-⭐ **If this helped you, drop a star — it means a lot!**
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2d1b69,50:1a1a3e,100:0a0a0f&height=120&section=footer" width="100%"/>
+
+<sub>MIT License · © 2025 Saharia Hassan Safin · ⭐ Star this repo if it helped you!</sub>
 
 </div>
